@@ -1,0 +1,2 @@
+# fiki
+A simple wiki 
