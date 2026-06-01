@@ -9,5 +9,3 @@ A very simple, super fast wiki on Flask
 ## Serving on production
 
 A supervisord controlled docker image and granian as wsgi server would provide a rock solid 5 mins setup.
-
-Have a look at the sample Dockerfile
