@@ -2,7 +2,6 @@
 <html lang="en" data-theme="dark">
     <head>
         <title></title>
-        <script src="https://cdn.jsdelivr.net/npm/markdown-wasm@1.2.0/dist/markdown.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css">
         <style>
             :root {
@@ -183,11 +182,5 @@
                 <p><small><a href="/terms">Terms&amp;Conditions</a> <a href="/privacy">Privacy policy</a></small></p>
             </footer>
         </div>
-        <!--script>
-            window["markdown"].ready.then(markdown => {
-                const content = document.getElementById("content");
-                content.innerHTML = markdown.parse({{ content | tojson | safe }});
-            })
-        </script-->
     </body>
 </html>
